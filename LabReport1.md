@@ -2,48 +2,59 @@
 **Example 1 - cd No Arguments**  \
 ![Image](cdNoArgs.png)  \
 The working directory is /home. The output is nothing because I am attempting to change the directory without providing a directory to change it to, so it does not do anything. This is not an error, it just does nothing as the computer is already in the home directory so cd without any arguments will not do anything.
+Horizontal rule:
+
 ---
 
 **Example 2 - cd Directory**  \
 ![Image](cdDirectory.png)  \
 The working directory is /home. The output is now in /lecture1 as the command changed the directory to lecture1. There is not an error.
+Horizontal rule:
+
 ---
 
 **Example 2 - cd File**  \
 ![Image](cdFile.png)  \
 The working directory is /home/lecture1. The output is an error as I am attempting to use change directory with a file as an argument instead of a directory. 
+Horizontal rule:
+
 ---
 
 **Example 4 - ls No Arguments**  \
 ![Image](lsNoArgs.png)  \
 The working directory is /home. The output is lecture1 as I am listing the files in the home directory and lecture1 is the only file listed within the home directory. There is not an error.
+Horizontal rule:
+
 ---
 
 **Example 5 - ls Directory**  \
 ![Image](lsDirectory.png)  \
 The working directory is /home. The output is a list of the files within the lecture1 folder as I am listing the files within this directory. There is not an error.
+Horizontal rule:
+
 ---
 
 **Example 6 - ls File**  \
 ![Image](lsFile.png)  \
 The working directory is /home. The output is the file as I am using the list command with a file, so it provides information about the given file. There is not an error.
+Horizontal rule:
+
 ---
 
 **Example 7 - cat No Arguments**  \
 ![Image](catNoArgs.png)  \
 The working directory is /home. There is no output as the program is waiting for an input. The current program has to be cancelled through Ctrl + c in order to continue to use the program. There is no error, but the command does not work.
+Horizontal rule:
+
 ---
 
 **Example 8 - cat Directory**  \
 ![Image](catDirectory.png)  \
 The working directory is /home. The output tells me that lecture1 is a directory as cat is meant to be used with a file to show its contents. There is no error, but the command is not very useful.
+Horizontal rule:
+
 ---
 
 **Example 9 - cat File**  \
 ![Image](catFile.png)  \
 The working directory is /home. The output displays the contents of the given file, en-us.txt, which is "Hello World!" There is no error. 
----
-
-
-
-
