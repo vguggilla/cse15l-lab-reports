@@ -6,6 +6,7 @@ class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     StringBuilder message = new StringBuilder();
+    int num = 0;
     
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
@@ -13,8 +14,9 @@ class Handler implements URLHandler {
         } else if(url.getPath().equals("/add-message")){
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                    String newMessage = parameters[1];
+                    String newMessage = num + ". " + parameters[1];
                     message.append(newMessage);
+                    num++;
                     return message.toString();
             }
             else {
