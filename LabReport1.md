@@ -11,7 +11,7 @@ The working directory is /home. The current working directory is now /lecture1 a
 
 ---
 
-**Example 2 - cd File**  \
+**Example 3 - cd File**  \
 ![Image](cdFile.png)  \
 The working directory is /home/lecture1. The output is an error as I am attempting to use change directory with a file as an argument instead of a directory. 
 
