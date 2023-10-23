@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 **Example 1 - cd No Arguments**  \
 ![Image](cdNoArgs.png)  \
-The working directory is /home. The output is nothing because I am attempting to change the directory without providing a directory to change it to, so it does not do anything. This is not an error, it just does nothing as the computer is already in the home directory so cd without any arguments will not do anything. If the working directory is not /home, using `cd without arguments will switch the working directory to /home.
+The working directory is /home. The output is nothing because I am attempting to change the directory without providing a directory to change it to, so it does not do anything. This is not an error, it just does nothing as the computer is already in the home directory so `cd` without any arguments will not do anything. If the working directory is not /home, using `cd` without arguments will switch the working directory to /home.
 
 ---
 
@@ -43,7 +43,7 @@ The working directory is /home. There is no output as the program is waiting for
 
 **Example 8 - cat Directory**  \
 ![Image](catDirectory.png)  \
-The working directory is /home. The output tells me that lecture1 is a directory as `cat is meant to be used with a file to show its contents. This is an error message as I am trying to display the contents of a directory when the `cat command is meant to be used with a file.
+The working directory is /home. The output tells me that lecture1 is a directory as `cat` is meant to be used with a file to show its contents. This is an error message as I am trying to display the contents of a directory when the `cat` command is meant to be used with a file.
 ---
 
 **Example 9 - cat File**  \
