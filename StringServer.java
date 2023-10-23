@@ -1,20 +1,25 @@
 import java.io.IOException;
 import java.net.URI;
 
+
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    String output = "";
-    int num = 0;
+    StringBuilder message = new StringBuilder();
+    
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/add-message")) {
+        if (url.getPath().equals("/")) {
+            return "String Server";
+        }
+        else if(url.getPath().equals("/add-message"))){
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                    output += num + ". " + parameters[1] + "\n";
-                    num++;
-                    return String.format(output);
+                    String newMessage = parameters[1];
+                    messages.append(newMessage);
+                    return messages.toString();
             }
-        } return "404 Not Found!";
+            else return "Invalid request format";
+        } else return "404 Not Found!";
     }
 }
 
