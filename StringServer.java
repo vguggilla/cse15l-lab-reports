@@ -10,16 +10,19 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return "String Server";
-        }
-        else if(url.getPath().equals("/add-message"))){
+        } else if(url.getPath().equals("/add-message")){
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                     String newMessage = parameters[1];
                     messages.append(newMessage);
                     return messages.toString();
             }
-            else return "Invalid request format";
-        } else return "404 Not Found!";
+            else {
+                return "Invalid request format";
+            }
+        } else {
+            return "404 Not Found!";
+        }
     }
 }
 
