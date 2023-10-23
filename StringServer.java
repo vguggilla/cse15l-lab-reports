@@ -13,10 +13,8 @@ class Handler implements URLHandler {
                     output += num + ". " + parameters[1] + "\n";
                     num++;
                     return String.format(output);
-                }
+            }
         } 
-            return "404 Not Found!";
-        }
     }
 }
 
