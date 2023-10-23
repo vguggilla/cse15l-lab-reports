@@ -14,8 +14,8 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                     String newMessage = parameters[1];
-                    messages.append(newMessage);
-                    return messages.toString();
+                    message.append(newMessage);
+                    return message.toString();
             }
             else {
                 return "Invalid request format";
