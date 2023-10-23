@@ -4,7 +4,7 @@ import java.net.URI;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    String output = 0;
+    String output = "";
     int num = 0;
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
