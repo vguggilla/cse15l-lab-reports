@@ -14,7 +14,7 @@ class Handler implements URLHandler {
                     num++;
                     return String.format(output);
             }
-        } 
+        }else return "404 Not Found!";
     }
 }
 
