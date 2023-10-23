@@ -44,6 +44,7 @@ The working directory is /home. There is no output as the program is waiting for
 **Example 8 - cat Directory**  \
 ![Image](catDirectory.png)  \
 The working directory is /home. The output tells me that lecture1 is a directory as `cat` is meant to be used with a file to show its contents. This is an error message as I am trying to display the contents of a directory when the `cat` command is meant to be used with a file.
+
 ---
 
 **Example 9 - cat File**  \
