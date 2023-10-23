@@ -1,6 +1,6 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
 **String Server Code**  \
-![Image](StringServerCode.png)  \
+![Image](StringServerCode.png)  
 
 ---
 
@@ -17,17 +17,17 @@ The method in the code being called is `handleRequests`. For this add, `num = 2`
 ---
 
 **Private Key Path** \
-![Image](PrivateKey.png)  \
+![Image](PrivateKey.png)  
 
 ---
 
 **Public Key Path** \
-![Image](PublicKey.png)  \
+![Image](PublicKey.png)  
 
 ---
 
 **Logging into ieng6 without password** \
-![Image](LoginNoPw.png)  \
+![Image](LoginNoPw.png)  
 
 ---
 
