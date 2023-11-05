@@ -1,6 +1,6 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
 **String Server Code**  \
-![Image](StringServerCode.png)  
+![Image](StringServerCode2.png)  
 
 ---
 
