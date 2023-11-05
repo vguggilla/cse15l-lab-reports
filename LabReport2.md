@@ -6,13 +6,14 @@
 
 **Add Messages Example 1** \
 ![Image](AddMessage1.png)  \
-The method in the code being called is `handleRequests`. For this add, `num = 1` so `newMessage = 1. Hello`, and this is appended to message. After this request, `num` is updated to equal 2. 
+The method in the code being called is `handleRequests`. For this add, the URI being passed as an argument is `/add-message?s=Hello` and `num = 1`, so the value of `newMessage = 1. Hello`, and this is appended to the StringBuilder message which is returned. After this request, `num` is updated to equal 2. 
 
 ---
 
 **Add Messages Example 2** \
 ![Image](AddMessage3.png)  \
-The method in the code being called is `handleRequests`. For this add, `num = 2` and the input is How%20are%20you, so using URLDecore, `newMessage = 2. How are you`, and this is appended to message. After this request, `num` is updates to equal 3 and `message` is 1. Hello and then on a new line 2. How are you.
+The method in the code being called is `handleRequests`. For this add, the URI being passed as an argument is `/add-message?s=How%20are%20you`
+ and `num = 2`. The value of newMessage is `2. How are you` as the URLDecoder method decode using the arguments of the message and `UTF=8` removed the `%20s` and replaces them with spaces. This message is appended to the StringBuilder message, and message is returned. After this request, `num` is updated to equal 3. 
 
 ---
 
