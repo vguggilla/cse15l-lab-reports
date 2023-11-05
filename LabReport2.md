@@ -17,13 +17,13 @@ The method in the code being called is `handleRequests`. For this add, the URI b
 
 ---
 
-**Private Key Path** \
-![Image](PrivateKey.png)  
-
----
-
 **Public Key Path** \
 ![Image](PublicKey.png)  
+![Image](PublicKeyls.png)
+---
+
+**Private Key Path** \
+![Image](PrivateKey.png)  
 
 ---
 
