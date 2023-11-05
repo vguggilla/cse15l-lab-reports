@@ -15,6 +15,7 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 try{
+                    //adding number, removing %20s for spaces, adding new line
                     String newMessage = num + ". " + URLDecoder.decode(parameters[1], "UTF-8") + "\n";
                     message.append(newMessage);
                     num++;
