@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.net.URI;
-
+import java.net.URLDecoder
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
@@ -14,10 +14,14 @@ class Handler implements URLHandler {
         } else if(url.getPath().equals("/add-message")){
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                    String newMessage = num + ". " + parameters[1] + "\n";
+                try{
+                    String newMessage = num + ". " + URLDecoder.decode(parameters[1], "UTF-8") + "\n";
                     message.append(newMessage);
                     num++;
                     return message.toString();
+                } 
+                catch(IOException e)
+                    return "Error decoding message";
             }
             else {
                 return "Invalid request format";
