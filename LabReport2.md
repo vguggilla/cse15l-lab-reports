@@ -32,4 +32,4 @@ The method in the code being called is `handleRequests`. For this add, the URI b
 
 ---
 
-Something I learned from week 2 and week 3 of cse 15l is how to compile and start a server. By cloning a git repository, we can compile a server using the javac command and start it using the java command. Before this, I had no idea how to start a server.
+Something I learned from Week 2 and 3 of CSE 15l is how to compile and start a server. By cloning a git repository, we can compile a server using the javac command with the files we are compiling and start it using the java command with the name of the server we are executing and a port number. Before Week 2's Lab, I had no idea how to run a server.
