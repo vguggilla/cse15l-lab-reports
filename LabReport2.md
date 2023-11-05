@@ -11,8 +11,8 @@ The method in the code being called is `handleRequests`. For this add, `num = 1`
 ---
 
 **Add Messages Example 2** \
-![Image](AddMessage2.png)  \
-The method in the code being called is `handleRequests`. For this add, `num = 2` so `newMessage = 2. Goodbye`, and this is appended to message. After this request, `num` is updates to equal 3 and `message` is 1. Hello and then on a new line 2. Goodbye.
+![Image](AddMessage3.png)  \
+The method in the code being called is `handleRequests`. For this add, `num = 2` and the input is How%20are%20you, so using URLDecore, `newMessage = 2. How are you`, and this is appended to message. After this request, `num` is updates to equal 3 and `message` is 1. Hello and then on a new line 2. How are you.
 
 ---
 
