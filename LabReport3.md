@@ -1,6 +1,7 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
 
-**Failure Inducing Input for Buggy Reverse Program**
+**Failure Inducing Input for Buggy Reverse Program**   \
+
 `
 @Test
 public void testReversedMany() {
@@ -12,7 +13,8 @@ public void testReversedMany() {
 
 ---
   
-**Input That Does Not Induce Failure for Buggy Reverse Program**
+**Input That Does Not Induce Failure for Buggy Reverse Program**   \
+
 `
 @Test
 public void testReversed() {
