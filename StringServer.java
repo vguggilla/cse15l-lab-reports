@@ -20,8 +20,9 @@ class Handler implements URLHandler {
                     num++;
                     return message.toString();
                 } 
-                catch(IOException e)
+                catch(IOException e){
                     return "Error decoding message";
+                }
             }
             else {
                 return "Invalid request format";
