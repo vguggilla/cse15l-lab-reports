@@ -58,6 +58,7 @@ For this add, the URI being passed as an argument is `/add-message?s=How%20are%2
 
 **Public Key Path** \
 ![Image](PublicKeyPath.png)  
+
 ---
 
 **Private Key Path** \
