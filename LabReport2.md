@@ -5,10 +5,10 @@
 ---
 
 **Add Messages Example 1** \
-![Image](AddMessage1.png)  \
+![Image](AddMessage1.png)  
 
-Methods Being Called and Their Arguments: \
-Within StringServer Main Method: \
+Methods Being Called and Their Arguments: 
+Within StringServer Main Method: 
 - (Propety) `String[].length` used in `args.length` taking no arguments
 - `System.out.println()` used in `System.out.println("Missing port number! Try any number between 1024 to 49151")` takes argument `"Missing port number! Try any number between 1024 to 49151"`
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
@@ -31,10 +31,10 @@ For this add, the URI being passed as an argument is `/add-message?s=Hello` and 
 ---
 
 **Add Messages Example 2** \
-![Image](AddMessage3.png)  \
+![Image](AddMessage3.png)  
 
-Methods Being Called and Their Arguments: \
-Within StringServer Main Method: \
+Methods Being Called and Their Arguments: 
+Within StringServer Main Method: 
 - (Propety) `String[].length` used in `args.length` taking no arguments
 - `System.out.println()` used in `System.out.println("Missing port number! Try any number between 1024 to 49151")` takes argument `"Missing port number! Try any number between 1024 to 49151"`
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
