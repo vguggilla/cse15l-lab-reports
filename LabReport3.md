@@ -40,7 +40,7 @@ The fix between the before and after code addresses the issue as in the buggy co
 
 ---
 
-**Find Command Options"
+**Find Command Options**
 1. `-name`
 ![Image](find-name1.png)
 ![Image](find-name2.1.png)
