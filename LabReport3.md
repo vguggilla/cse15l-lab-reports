@@ -36,6 +36,7 @@ public void testReversed() {
 
 **Code After** \
 ![Image](ReverseAfter.png)
+
 The fix between the before and after code addresses the issue as in the buggy code, as in the original code, `arr` is being set to the value of `newArray` at `[arr.length - i - 1]`, but `newArray` is filled with 0s as it was just initialized and has 0 as the value of each element as is the default for java. The new code works as it is iterating through the length of `arr` and setting the values of `newArray` equal to those of `arr` at `[arr.length - i - 1]` which would make `newArray` the reverse of `arr`, and then returning `newArray`.
 
 ---
