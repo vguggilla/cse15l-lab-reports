@@ -14,7 +14,7 @@ Within StringServer Main Method:
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
 - `Server.start()` used in `Server.start(port, new Handler())` takes the int argument `port` and URLHandler `new Handler()`
 
-Within StringServer HandleRequest Method
+Within StringServer HandleRequest Method:
 - `URI.getPath.equals()` used in `url.getPath.equals("/")` and `url.getPath().equals("/add-message")` takes the String arguments `"/"` and `"/add-message"`
 -  `URI.getQuery().split` used in `url.getQuery().split("=")` takes the String argument `"="`
 -  `String.equals()` used in `parameters[0].equals("s")` takes the argument `"s"`
@@ -40,7 +40,7 @@ Within StringServer Main Method:
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
 - `Server.start()` used in `Server.start(port, new Handler())` takes the int argument `port` and URLHandler `new Handler()`
 
-Within StringServer HandleRequest Method
+Within StringServer HandleRequest Method:
 - `URI.getPath.equals()` used in `url.getPath.equals("/")` and `url.getPath().equals("/add-message")` takes the String arguments `"/"` and `"/add-message"`
 -  `URI.getQuery().split` used in `url.getQuery().split("=")` takes the String argument `"="`
 -  `String.equals()` used in `parameters[0].equals("s")` takes the argument `"s"`
