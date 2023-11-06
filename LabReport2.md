@@ -19,7 +19,7 @@ Within StringServer HandleRequest Method
 -  `URI.getQuery().split` used in `url.getQuery().split("=")` takes the String argument `"="`
 -  `String.equals()` used in `parameters[0].equals("s")` takes the argument `"s"`
 -  `URLDecoder.decode()` used in `URLDecoder.decode(parameters[1], "UTF-8")` takes the String arguments `parameters[1]` which equals `"Hello"` and `"UTF-8"` which is a character encoding
--  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument newMessage which equals `"1. Hello\n"`
+-  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument `newMessage` which equals `"1. Hello\n"`
 -  `StringBuilder.toString()` used in `message.toString()` takes no arguments
 
 Fields: \
@@ -45,7 +45,7 @@ Within StringServer HandleRequest Method
 -  `URI.getQuery().split` used in `url.getQuery().split("=")` takes the String argument `"="`
 -  `String.equals()` used in `parameters[0].equals("s")` takes the argument `"s"`
 -  `URLDecoder.decode()` used in `URLDecoder.decode(parameters[1], "UTF-8")` takes the String arguments `parameters[1]` which equals `"How%20are%20you"` and `"UTF-8"` which is a character encoding
--  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument newMessage which equals `"2. How are you\n"`
+-  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument `newMessage` which equals `"2. How are you\n"`
 -  `StringBuilder.toString()` used in `message.toString()` takes no arguments
 
 Fields: \
