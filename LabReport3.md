@@ -54,7 +54,7 @@ The -name option for the find command helps you find a file when you know its na
 
 The -iname option for the find command allows you to find the path to a file without exact capitilizaiton and for partial searches. In the first use above, it is giving the path to a file using the keywords of that file, and the second use is a more general search for text files containing `"chapter"` in their name, and it returns the paths to all such files.
 
-4. `-type`
+3. `-type`
 ![Image](find-typef.png)
 ![Image](find-typed.png)
 
