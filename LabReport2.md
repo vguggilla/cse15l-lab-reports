@@ -22,7 +22,7 @@ Within StringServer HandleRequest Method
 -  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument `newMessage` which equals `"1. Hello\n"`
 -  `StringBuilder.toString()` used in `message.toString()` takes no arguments
 
-Fields: \
+Fields: 
 - `StringBuilder message = new StringBuilder()`
 - `int num = 1`
 
@@ -48,7 +48,7 @@ Within StringServer HandleRequest Method
 -  `StringBuilder.append()` used in `message.append(newMessage)` takes the String argument `newMessage` which equals `"2. How are you\n"`
 -  `StringBuilder.toString()` used in `message.toString()` takes no arguments
 
-Fields: \
+Fields: 
 - `StringBuilder message = "1. Hello\n"`
 - `int num = 2`
 
