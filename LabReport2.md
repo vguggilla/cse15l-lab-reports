@@ -12,7 +12,7 @@ Within StringServer Main Method:
 - (Propety) `String[].length` used in `args.length` taking no arguments
 - `System.out.println()` used in `System.out.println("Missing port number! Try any number between 1024 to 49151")` takes argument `"Missing port number! Try any number between 1024 to 49151"`
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
-- `Server.start()` used in `Server.start(port, new Handler())` takes the int argument port and URLHandler new Handler()
+- `Server.start()` used in `Server.start(port, new Handler())` takes the int argument `port` and URLHandler `new Handler()`
 
 Within StringServer HandleRequest Method
 - `URI.getPath.equals()` used in `url.getPath.equals("/")` and `url.getPath().equals("/add-message")` takes the String arguments `"/"` and `"/add-message"`
@@ -38,7 +38,7 @@ Within StringServer Main Method:
 - (Propety) `String[].length` used in `args.length` taking no arguments
 - `System.out.println()` used in `System.out.println("Missing port number! Try any number between 1024 to 49151")` takes argument `"Missing port number! Try any number between 1024 to 49151"`
 - `Integer.parseInt()` used in `Integer.parseInt(args[0])` takes the argument `args[0]` which equals `4000`
-- `Server.start()` used in `Server.start(port, new Handler())` takes the int argument port and URLHandler new Handler()
+- `Server.start()` used in `Server.start(port, new Handler())` takes the int argument `port` and URLHandler `new Handler()`
 
 Within StringServer HandleRequest Method
 - `URI.getPath.equals()` used in `url.getPath.equals("/")` and `url.getPath().equals("/add-message")` takes the String arguments `"/"` and `"/add-message"`
