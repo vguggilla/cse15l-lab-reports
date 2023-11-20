@@ -32,10 +32,26 @@ public void testReversed() {
 ---
 
 **Buggy Code (Before)** \
-![Image](ReverseBefore.png)
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
 
 **Code After** \
-![Image](ReverseAfter.png)
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
 
 The fix between the before and after code addresses the issue as in the buggy code, as in the original code, `arr` is being set to the value of `newArray` at `[arr.length - i - 1]`, but `newArray` is filled with 0s as it was just initialized and has 0 as the value of each element as is the default for java. The new code works as it is iterating through the length of `arr` and setting the values of `newArray` equal to those of `arr` at `[arr.length - i - 1]` which would make `newArray` the reverse of `arr`, and then returning `newArray`.
 
