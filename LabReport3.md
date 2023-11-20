@@ -1,6 +1,6 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
 
-**Failure Inducing Input for Buggy Reverse Program**   \
+**Failure Inducing Input for Buggy Reverse Program**   
 
 ```
 @Test
@@ -13,7 +13,7 @@ public void testReversedMany() {
 
 ---
   
-**Input That Does Not Induce Failure for Buggy Reverse Program**   \
+**Input That Does Not Induce Failure for Buggy Reverse Program**   
 
 ```
 @Test
@@ -31,7 +31,7 @@ public void testReversed() {
 
 ---
 
-**Buggy Code (Before)** \
+**Buggy Code (Before)** 
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -42,7 +42,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-**Code After** \
+**Code After** 
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
