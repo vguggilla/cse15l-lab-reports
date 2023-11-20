@@ -26,8 +26,8 @@ Changed directory to lab7, then typed out javac command and `<enter>` and java c
 ![Image](vimPass.png)
 ![Image](editingVim.png)
 
-Used vim to enter the ListExamples.java code file. Entered `<shift + g>` to go to the end of the file. Then `<up>``<up>``<up>``<up>``<up>``<up>``<e>``<right>` to navigate the the space after index1. `<i>` to enter insert mode, `<backspace>` `<2>` to replace index1 with index2. `<esc>` to exit insert mode `<:wq>` to save and exit.
-`<up>``<up>``<up>` as the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was three up in history then `<enter>`. `<up>``<up>``<up>` as the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was three up in history then `<enter>`.
+Used vim to enter the ListExamples.java code file. Entered `<shift + g>` to go to the end of the file. Then `<up>` `<up>` `<up>` `<up>` `<up>` `<up>` `<e>` `<right>` to navigate the the space after index1. `<i>` to enter insert mode, `<backspace>` `<2>` to replace index1 with index2. `<esc>` to exit insert mode `<:wq>` to save and exit.
+`<up>` `<up>` `<up>` as the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was three up in history then `<enter>`. `<up>` `<up>` `<up>` as the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was three up in history then `<enter>`.
 
 ---
 
