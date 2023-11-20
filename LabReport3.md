@@ -59,14 +59,14 @@ The fix between the before and after code addresses the issue as in the buggy co
 
 **Find Command Options**
 1. **`-name`** ([Source](https://www.redhat.com/sysadmin/linux-find-command))
-   
+
 ![Image](find-name1.png)
 ![Image](find-name2.1.png)   
 
 The -name option for the find command helps you find a file when you know its name, but not where its stored. The first use above shows it giving the path to a file that was given, and the second screenshot shows it returning nothing because the file does not exist. The usage of 2>/dev/null silences permission errors.
 
 2. **`-iname`** ([Source](https://www.redhat.com/sysadmin/linux-find-command))
-   
+
 ![Image](find-iname1.png)
 ![Image](find-iname2.png)
 
