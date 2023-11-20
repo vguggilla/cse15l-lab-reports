@@ -84,5 +84,8 @@ The -type option for the find command allows you to find based on the type such 
 ![Image](find-size1.png)
 ![Image](find-size2.png)
 
+
+updated
+
 The -size option for the find command allows you to find a file based on its size. In the first use above, it is giving all the files and directories that are less than one kilobyte in size. In the second use, it is outputting all of the files and directories that are between 1 and 2 kilobytes.
 
