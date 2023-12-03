@@ -29,11 +29,13 @@ Changed directory to lab7, then copied the javac command from Week 4 lab using `
 Typed `<vim>` then `<L>` `<tab>` `<.>` `<tab>` `<enter>` to enter the ListExamples.java code file. Entered `<:44>` to go to the line that needs to be changed. Then `<e>` `<right>` to navigate the the space after index1. `<i>` to enter insert mode, `<backspace>` `<2>` to replace index1 with index2. `<esc>` to exit insert mode `<:wq>` to save and exit.
 `<up>` `<up>` `<up>` as the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was three up in history then `<enter>`. `<up>` `<up>` `<up>` as the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was three up in history then `<enter>`.
 
+![Image](testsPass.png)
+
 ---
 
 **Committing to Git**
 
 ![Image](gitCommit.png)
-Typed out git add command and `<enter>` and git commit command and `<enter>` to stage the ListExamples.java file and commit the changes to my Github account.
+Typed out git add, `<L>` `<tab>` and `<enter>` to stage the ListExamples.java file. Typed git commit command and `<enter>` to commit the changes to my Github account.
 
 
