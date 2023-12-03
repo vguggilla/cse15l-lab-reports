@@ -10,14 +10,14 @@
 **Cloning Repo**
 ![Image](cloneLab7.png)
 
-Copied ssh url from fork and git cloned. `<enter>`.
+Navigated to my fork of lab7 on github. Clicked the code button, SSH, and the copy button. Typed git clone and pasted ssh url from fork using `<command + v>`. `<enter>`.
 
 ---
 
 **Tests Failing**
 ![Image](testsFail.png)
 
-Changed directory to lab7, then typed out javac command and `<enter>` and java command and `<enter>` to compile and run the tests. 
+Changed directory to lab7, then copied the javac command from Week 4 lab using `<command + c>` then `<command + v>` and `<enter>`.  Copied the java command using `<command + c>` from Week 4 lab and pasted using `<command + v>` then `<control + w>` to delete `ArrayTests`. `<L>` then `<tab>` to autofill to ListExamples then `<T>` then `<tab>` to autofill to `ListExampleTest.` then `<delete>` to remove the period and `<enter>` to compile and run the tests. 
 
 ---
 
@@ -26,7 +26,7 @@ Changed directory to lab7, then typed out javac command and `<enter>` and java c
 ![Image](vimPass.png)
 ![Image](editingVim.png)
 
-Used vim to enter the ListExamples.java code file. Entered `<shift + g>` to go to the end of the file. Then `<up>` `<up>` `<up>` `<up>` `<up>` `<up>` `<e>` `<right>` to navigate the the space after index1. `<i>` to enter insert mode, `<backspace>` `<2>` to replace index1 with index2. `<esc>` to exit insert mode `<:wq>` to save and exit.
+Typed `<vim>` then `<L>` `<tab>` `<.>` `<tab>` `<enter>` to enter the ListExamples.java code file. Entered `<:44>` to go to the line that needs to be changed. Then `<e>` `<right>` to navigate the the space after index1. `<i>` to enter insert mode, `<backspace>` `<2>` to replace index1 with index2. `<esc>` to exit insert mode `<:wq>` to save and exit.
 `<up>` `<up>` `<up>` as the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was three up in history then `<enter>`. `<up>` `<up>` `<up>` as the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was three up in history then `<enter>`.
 
 ---
