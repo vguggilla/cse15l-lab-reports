@@ -3,7 +3,7 @@
 **Logging Into ieng6**
 ![Image](login.png)
 
-Typed out the ssh to login to ieng6. `<enter>`.
+`<up>` as my last command on terminal history was logging in to ieng6. `<enter>`.
 
 ---
 
