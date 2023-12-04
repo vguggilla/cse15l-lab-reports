@@ -8,7 +8,7 @@ When I test my ListExamples using grade.sh, I am receiving this output. I know t
 ---
 
 **TA Response** \
-The error you are getting is java.lang.UnsupportedOperationException for using remove on an Abstract List at line 34. Maybe try using vim on your `ListExamples.java` to take a look at what type of list you are calling remove on in your ListExamples file. 
+The error you are getting is `java.lang.UnsupportedOperationException` for using remove on an Abstract List at line 34. Maybe try using vim on your `ListExamples.java` to take a look at what type of list you are calling remove on in your ListExamples file. 
 
 ---
 
