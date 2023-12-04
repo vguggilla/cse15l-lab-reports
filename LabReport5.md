@@ -14,7 +14,7 @@ The error you are getting is java.lang.UnsupportedOperationException for using t
 
 **Information Gained**
 ![Image](infoGained.png)
-The student will look at line 34 `list2.remove(index2);` and realize that they are calling remove on list1 and list2 which are Abstract Lists which is not allowed. This is the bug. A solution would be to create new Lists that are defined as ArrayLists copying the arguments like so: `List<String> al1 = new ArrayList<>(list1);`. Then calling all the functions on these Lists would make the code work. 
+The student will look at line 34 `list2.remove(index2);` and realize that they are calling remove on `list1` and `list2` which are Abstract Lists which is not allowed. This is the bug. A solution would be to create new Lists that are defined as ArrayLists copying the arguments like so: `List<String> al1 = new ArrayList<>(list1);`. Then calling all the functions on these Lists would make the code work. 
 
 ---
 
