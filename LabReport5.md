@@ -105,7 +105,7 @@ javac -cp $CPATH *.java
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 ```
 
-TestListExamples.java
+TestListExamples.java:
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
