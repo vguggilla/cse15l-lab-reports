@@ -5,7 +5,9 @@
 
 When I test my ListExamples using grade.sh, I am receiving this output. I know the merge function is not working, and I see that it has to do with me using the remove function but I don't know the issue. 
 
-**TA Response**
+---
+
+**TA Response** \
 The error you are getting is java.lang.UnsupportedOperationException for using the remove on an Abstract List at line 34. Maybe try using vim to take a look at what type of list you are calling remove on in your ListExamples file. 
 
 ---
