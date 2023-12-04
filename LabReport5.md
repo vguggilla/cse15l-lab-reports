@@ -146,5 +146,5 @@ Alternatively, we could switch the remove lines to `index1 += 1` or `index2 += 1
 
 ---
 
-**Reflection**
+**Reflection** \
 Something I learned from the second half of this quarter was just how much could be done from the command line. We can edit files and push them using vim and git add and commit, and figure out what needs to be edited more efficiently using jdb. I did not know that you could do this much just using the command line and find it really cool how efficient you can get using shortcuts and other tricks. 
