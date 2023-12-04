@@ -141,6 +141,7 @@ public class TestListExamples {
 
 Command line to trigger the bug: `bash grade.sh https://github.com/vguggilla/list-examples-vish.git`
 
+
 To fix the bug in ListExamples.java we can either use the method described above of copying the Lists given as arguments into Lists defined as Arraylists and calling the methods on them. 
 ![Image](Solution1.png)
 
