@@ -1,7 +1,7 @@
 # Lab Report 5 - Putting it All Together (Week 9)
 
 **Original Student Post**
-![Image](Symptom.png)
+![Image](actualSymptom.png)
 
 When I test my ListExamples using grade.sh, I am receiving this output. I know the merge function is not working, and I see that it has to do with me using the remove function but I don't know the issue. 
 
